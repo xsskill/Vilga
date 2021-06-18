@@ -1,0 +1,87 @@
+
+
+
+
+
+body {
+	line-height: 1.5
+}
+
+
+/* Style */
+body {
+	font: 16px/28px arial, sans-serif
+	background-color : lightblack;
+	background-image: url(prism.png);
+	color: #333;
+}
+
+.container {
+	width: 800px;
+	margin: auto;
+	background-color: #fff
+}
+
+.header {
+	padding: 20px;
+}
+
+.header .judul {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-left: 10px
+}
+
+.header a {
+	text-decoration: none;
+	color: salmon;
+	padding: 3px
+}
+
+.header a:hover {
+	background-color: Aqua
+	color: white;
+}
+
+.hero {
+	height: 280px;
+	background-image: url(hero.png);
+	background-size: cover;
+	border-top: 5px solid salmon;
+	border-bottom: 5px solid salmon;
+}
+
+.content {
+	padding:20px;
+}
+
+.content h2 {
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.content .penulis {
+	font-size: 11;
+	font-weight: bold;
+	margin-top: -25px;
+}
+
+.content p {
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+
+.footer {
+	background-color: black;
+	padding: 8px;
+}
+
+.footer .copy {
+	color: #eaeaea;
+	text-align: center;
+	font-size: 12px;
+}
